@@ -28,5 +28,5 @@
  Throughout this project the group has constantly made contact through the slack app.
  This includes sharing information that we find online, code & arranging meetings at least once a week.
  TO_DO List Tracker has been developed to monitor progress of deliverables 
- [TO_DO List Tracker](https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing)
+ - [TO_DO List Tracker](https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing)
  
