@@ -14,7 +14,7 @@
 
 ### US Census Data for 2010-2019
  Every decade the US Census Bureau produces a report of the current population of the United States.
- In between decennial censuses the bureau models demographic trends for the country.
+ In between these decennial censuses the bureau models demographic trends for the country.
  This data shows the count for the 2010 census and the agencies subsequent population estimates over the 2010's.  
 - Link: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html
 
