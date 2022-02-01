@@ -4,7 +4,7 @@
  In this project we are examining a potential relationship between divorce and weather patterns at a county level.
  
 ## Reason why they selected their topic 
- This project is a confluence of our shared interests, we wanted to examine how personal relationships and the external world interact on a geospacial scale.
+ This project is a confluence of our shared interests, we wanted to examine how physical geography influences personal relationships.
  
 ## Description of their source of data 
 ### Bowling Green State University County-Level Marriage and Divorce Data
