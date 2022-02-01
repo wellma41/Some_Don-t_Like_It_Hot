@@ -1,4 +1,4 @@
-# Some_Don-t_Like_It_Hot
+# Final Project - Divorce Analysis
 
 ## Selected topic 
  In this project we are examining a potential relationship between divorce and weather patterns at a county level.
