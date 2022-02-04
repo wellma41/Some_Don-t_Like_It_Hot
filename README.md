@@ -17,7 +17,7 @@
 ### 2000 County Level Divorce Data Spreadsheet
 These maps present geographic variation in the adjusted marriage and divorce rates for over 3,000 counties in the United States. The estimates are from county court record data of numbers of marriages and divorces and U.S. Census data from 2000
 - [Link to Bowling Green State University 2000 County Level Divorce Data Spreadsheet](https://www.bgsu.edu/ncfmr/resources/data/original-data/county-level-marriage-divorce-data-2000.html)
--  
+
 ### US Census Data for 2010-2019
  Every decade the US Census Bureau produces a report of the current population of the United States.
  In between these decennial censuses the bureau models demographic trends for the country.
