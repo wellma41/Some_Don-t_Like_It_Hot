@@ -1,5 +1,7 @@
 # Final Project - Divorce Analysis
 
+![Divorce](Images/divorce.jpeg)
+
 ## Selected topic 
  In this project we are examining a potential relationship between divorce and weather patterns at a county level.
  
