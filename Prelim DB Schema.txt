@@ -1,2 +1,2 @@
-County FIPS, Div_Rate, AVG_Temp, Min_Temp, Max_Temp, Year, AVG_Precip, Min_Precip, Max_Precip;
-INT          REAL      FLOAT     FLOAT     FLOAT     INT   FLOAT       FLOAT       FLOAT
+County FIPS,      Div_Rate, AVG_Temp, Min_Temp, Max_Temp, Year, AVG_Precip, Min_Precip, Max_Precip;
+INT(PRIMARY KEY), REAL    , FLOAT   , FLOAT   , FLOAT   , INT , FLOAT     , FLOAT     , FLOAT
