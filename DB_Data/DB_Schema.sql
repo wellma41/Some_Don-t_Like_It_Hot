@@ -25,9 +25,7 @@ CREATE TABLE Temperature_Data (
 CREATE TABLE Precipitation_Data (
 	FIPS_Code varchar(8) NOT NULL,
 	Year INT NOT NULL,
-	AVG_Precip REAL NOT NULL,
-	MAX_Precip REAL NOT NULL,
-	MIN_Precip REAL NOT NULL,
+	Annual_Precip REAL NOT NULL,
 	PRIMARY KEY(FIPS_Code)
 );
 
