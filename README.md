@@ -24,6 +24,12 @@ These maps present geographic variation in the adjusted marriage and divorce rat
  This data shows the count for the 2010 census and the agencies subsequent population estimates over the 2010's.  
 - [Link to US Census Data for 2010-2019](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
 
+### National Centers for Environmental Information 
+ The NCEI Data Access application offers a wide variety of download and subsetting options for a growing collection of weather data, including precipitation and temperature     information 
+ The Rankings are compiled using county-level measures from a variety of national and state data sources using a code to deploy an API.
+ This data shows the more than 15000 weather data by county for specific months of the year to collect most crititcal values within states.  
+- [National Centers for Environmental Information](https://www.ncei.noaa.gov/access)
+
 ### National County Health Rankings 2010-2019
  The County Health Rankings is a program of the University of Wisconsin Population Health Institute that measures the health of nearly all counties 
  The Rankings are compiled using county-level measures from a variety of national and state data sources.
@@ -39,4 +45,7 @@ These maps present geographic variation in the adjusted marriage and divorce rat
  This includes sharing information that we find online, code & arranging meetings at least once a week.
  TO_DO List Tracker has been developed to monitor progress of deliverables 
  - [TO_DO List Tracker](https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing)
+
+## Google Slide Presentation Link
+- [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
  
