@@ -46,6 +46,27 @@ These maps present geographic variation in the adjusted marriage and divorce rat
  TO_DO List Tracker has been developed to monitor progress of deliverables 
  - [TO_DO List Tracker](https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing)
 
+## Tools
+Creating Database
+- PostgreSQL
+Connecting to Database
+- Psycopg2
+Analyzing Data
+-Pandas
+Machine Learning
+- 
+Dashboard
+Flask
+HTML
+CSS
+Heroku
+
+## Dashboard
+The dashboard is an interactive webpage using machine learning to predict divorce rate. xxx.
+
+The link to the deployed dashboard is xxx
+
 ## Google Slide Presentation Link
 - [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
  
+![Divorce](Images/divorce.jpeg)
