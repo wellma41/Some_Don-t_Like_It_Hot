@@ -69,4 +69,5 @@ The link to the deployed dashboard is xxx
 ## Google Slide Presentation Link
 - [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
  
-![Divorce](Images/divorce.jpeg)
+
+![Divorce](Images/Final_Project.png)
