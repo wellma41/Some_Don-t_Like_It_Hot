@@ -61,8 +61,46 @@ HTML
 CSS
 Heroku
 
+## Data Cleaning Steps
+Here, our dataset had to be separated, sorted and transformed further before performing any analysis
+- Import the csv file was into a Pandas DataFrame
+- Fill zero value into null data from dataset
+- Manipulate data for Bedford City due to legal status change
+- Change county names to split out state and create new column with 2-letter code (+3,200)
+- Join the dataframes on 'Geographic Area' to merge the datasets (Census & Divorce)
+- Development of API to obtain Weather Data by county  (+16,200)
+
+- [Census and Divorce Dataset Cleaning here](static/Jupyter_Notebooks/Data_Cleaning_Divorce_Weather.ipynb)
+- [Wethaer API Data Code here](static/Jupyter_Notebooks/Get_Weather_Data_2.ipynb)
+
+## Database 
+Our database contains a 4 main tables (county_prep, county_temp, divorce_200, divorce_2010) which captures the dataset for 2000 and 2010 related with weather precipitacion (days with > 0.1 inch of precipitation, extreme maximum precipitation,  days with snow >0.1 inch of snow) and and temperature (days over 90 and days under 32) by county. USe of a DB allows for the following benefits: 
+
+- Quick retrieval of data
+- Mitigating redundant data in child tables
+- Preserving data integrity by having the features of each person stored once
+
+## Machine Learning 
+Neural Network Machine Learning Algorithms to predict if there is a relationship between divorce and weather patterns at a county level. 
+Steps include our Keras model, using the fit method and provide the x training values and y training values, as well as the number of epochs.
+-Input Values = Weather by Years 
+-Output = Divorce Rate 
+
+- [Correlation Matrix here](static/Jupyter_Notebooks/DivorceNN.ipynb)
+
+## Correlation Matrix
+In reviewing the various factors from weather and census data, we decided it would be useful to look at a correlation matrix. We quickly realized a majority of the factors do not have a correlation at all with the overall total scores. The following correlation matrix shows the weather, census and divorce rate relation.
+
+- [Machine Learning here](static/Jupyter_Notebooks/correlation_matrix.ipynb)
+
 ## Dashboard
 The dashboard is an interactive webpage using machine learning to predict divorce rate. Dashboard is available [here](https://some-dont-like-it-hot.herokuapp.com/)
+
+## Conclusion / Next Steps
+
+- There is statistical evidence that there is not relation between weather factors (rain and temperature) and divorece rate. Based on census and divorce data for 3,242 Counties during 2000 and 2010 
+
+-Machine Learning → After  trained neural network model and verified its performance using a test dataset, it could be applied novel datasets using health data to predict divorce rates based on additional inputs in the model.
 
 ## Google Slide Presentation Link
 - [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
