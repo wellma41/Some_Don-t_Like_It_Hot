@@ -73,7 +73,10 @@ Here, our dataset had to be separated, sorted and transformed further before per
 - Join the dataframes on 'Geographic Area' to merge the datasets (Census & Divorce)
 - Development of API to obtain Weather Data by county  (+16,200)
 
+Links 
+
 - [Census and Divorce Dataset Cleaning here](static/Jupyter_Notebooks/Data_Cleaning_Divorce_Weather.ipynb)
+
 - [Wethaer API Data Code here](static/Jupyter_Notebooks/Get_Weather_Data_2.ipynb)
 
 ## Database 
@@ -89,19 +92,21 @@ Steps include our Keras model, using the fit method and provide the x training v
 -Input Values = Weather by Years 
 -Output = Divorce Rate 
 
-- [Correlation Matrix here](static/Jupyter_Notebooks/DivorceNN.ipynb)
+- [Machine Learning here](static/Jupyter_Notebooks/DivorceNN.ipynb)
 
 ## Correlation Matrix
 In reviewing the various factors from weather and census data, we decided it would be useful to look at a correlation matrix. We quickly realized a majority of the factors do not have a correlation at all with the overall total scores. The following correlation matrix shows the weather, census and divorce rate relation.
 
-- [Machine Learning here](static/Jupyter_Notebooks/correlation_matrix.ipynb)
+- [Correlation_Matrix code here](static/Jupyter_Notebooks/correlation_matrix.ipynb)
+
+![Correlation_Matrix](static/Images/Corr_Matrix.png)
 
 ## Dashboard
 The dashboard is an interactive webpage using machine learning to predict divorce rate. Dashboard is available [here](https://some-dont-like-it-hot.herokuapp.com/)
 
 ## Conclusion / Next Steps
 
-- There is statistical evidence that there is not relation between weather factors (rain and temperature) and divorece rate. Based on census and divorce data for 3,242 Counties during 2000 and 2010 
+- Reject or fail to reject the null hypothesis, there is or is not enough evidence to support the alternative claim that there is not relation between weather factors (rain and temperature) and divorece rate. Based on census and divorce data for 3,242 Counties during 2000 and 2010 
 
 -Machine Learning → After  trained neural network model and verified its performance using a test dataset, it could be applied novel datasets using health data to predict divorce rates based on additional inputs in the model.
 
