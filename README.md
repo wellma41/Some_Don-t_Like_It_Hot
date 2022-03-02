@@ -2,11 +2,14 @@
 
 ![Divorce](static/Images/divorce.jpeg)
 
-## Selected topic 
- In this project we are examining a potential relationship between divorce and weather patterns at a county level.
+## Selected topic / Hypothesis
+
+Ha = There is a potential relationship between divorce and weather patterns at a county level.
+
+The main goal is develop a Machine Model to predict divorce rate based on specific factors as weather data for 2000 and 2010, being the base for future prediction using similar set of data 
  
 ## Reason why they selected their topic 
- This project is a confluence of our shared interests, we wanted to examine how external forces influence personal relationships.
+ This project is a confluence of our shared interests, we wanted to examine how external forces influence personal relationships. We believe that Divorce, like Weather can be predictable
  
 ## Description of their source of data 
 ### Bowling Green State University County-Level Marriage and Divorce Data
