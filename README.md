@@ -54,7 +54,7 @@ Connecting to Database
 Analyzing Data
 -Pandas
 Machine Learning
-- 
+- Visual Studio 
 Dashboard
 Flask
 HTML
