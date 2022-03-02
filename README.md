@@ -62,7 +62,7 @@ CSS
 Heroku
 
 ## Dashboard
-The dashboard is an interactive webpage using machine learning to predict divorce rate. Dashboard is available here
+The dashboard is an interactive webpage using machine learning to predict divorce rate. Dashboard is available [here](https://some-dont-like-it-hot.herokuapp.com/)
 
 ## Google Slide Presentation Link
 - [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
