@@ -1,6 +1,6 @@
 # Final Project - Divorce Analysis
 
-![Divorce](Images/divorce.jpeg)
+![Divorce](static/Images/divorce.jpeg)
 
 ## Selected topic 
  In this project we are examining a potential relationship between divorce and weather patterns at a county level.
@@ -70,4 +70,4 @@ The link to the deployed dashboard is xxx
 - [Divorce, like Weather, can be predictable here](https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing)
  
 
-![Divorce](Images/Final_Project.png)
+![Divorce](static/Images/Final_Project.png)
