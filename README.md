@@ -37,8 +37,8 @@ These maps present geographic variation in the adjusted marriage and divorce rat
 - [National County Health Rankings 2010](https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019)
 
 ## Questions they hope to answer with
- We want to predict the relationship between the success of a marriage based on its local climate.
- We hope to create a model that can predict future divorce rates of counties by...
+ We want to predict if there is a relationship between the success of a marriage based on its local climate.
+ We hope to create a model that can predict future divorce rates of counties 
  
 ##  Description of the communication protocols 
  Throughout this project the group has constantly made contact through the slack app.
@@ -62,7 +62,7 @@ CSS
 Heroku
 
 ## Dashboard
-The dashboard is an interactive webpage using machine learning to predict divorce rate. xxx.
+The dashboard is an interactive webpage using machine learning to predict divorce rate. Dashboard is available here
 
 The link to the deployed dashboard is xxx
 
