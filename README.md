@@ -50,15 +50,15 @@ These maps present geographic variation in the adjusted marriage and divorce rat
  - [TO_DO List Tracker](https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing)
 
 ## Tools
-Creating Database
+### Creating Database
 - PostgreSQL
-Connecting to Database
+### Connecting to Database
 - Psycopg2
-Analyzing Data
+### Analyzing Data
 -Pandas
-Machine Learning
+### Machine Learning
 - Visual Studio 
-Dashboard
+### Dashboard
 Flask
 HTML
 CSS
