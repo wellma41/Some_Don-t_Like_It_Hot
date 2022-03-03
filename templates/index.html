@@ -22,6 +22,151 @@
         </ul>
       </div>
     </nav>
-    <h1>Testing Heroku Website.... Please stand by.</h1>
+    <div class="container-fluid">
+      <h1> Divorce Analysis </h1>
+      <img src="{{ url_for('static', filename = 'Images/divorce.jpeg') }}" alt="Woman shaking her head in disappointment as she removes her wedding ring while a man holds his head in his hand in the background." style="width:50%;height:50%;"></img>
+      <h2>Selected topic / Hypothesis:</h2>
+      <h3>Alternative Hypothesis: There is a potential relationship between divorce and weather patterns at a county level.</h3>
+      <h3>Null Hypothesis: There is no relationship between divorce and weather patterns at a county level.</h3>
+      <h4>We hope to develop a Machine Learning Model to predict divorce rate based on external factors. We will trial the model on weather data for 2000 and 2010.</h4> 
+      <h2>Reason we chose this topic:</h2> 
+      <h4>This project is a confluence of our shared interests in that we wanted to examine the impact of external forces on personal relationships. We believe that divorce, like the weather, can be predictable</h4>
+      <br>
+      <br>
+      <h2>Data sources:</h2>
+      <h3>Bowling Green State University</h3>
+      <p>
+        This data catalogs the divorces and marriages for every US county in 2010. 
+        It has 3143 rows and 5 columns: co_fips(county code), county, state, divorces 2010, and marriage 2010.  
+      </p>
+      <a href="https://www.bgsu.edu/ncfmr/resources/data/original-data/county-level-marriage-divorce-data-2010.html">Link to Bowling Green State University County-Level Marriage and Divorce Data 2010</a>
+      <br>
+      <br>
+      <p>
+        These maps present geographic variation in the adjusted marriage and divorce rates for over 3,000 counties in the United States.
+        The estimates are from county court record data of numbers of marriages and divorces and U.S. Census data from 2000     
+      </p>
+      <a href="https://www.bgsu.edu/ncfmr/resources/data/original-data/county-level-marriage-divorce-data-2000.html">Link to Bowling Green State University 2000 County Level Divorce Data Spreadsheet</a>
+      <br>
+      <br>
+      <h3>US Census Data</h3>
+      <p>
+        Every decade the US Census Bureau produces a report of the current population of the United States.
+        In between these decennial censuses the bureau models demographic trends for the country.
+        This data shows the count for the 2010 census and the agencies subsequent population estimates over the 2010's.  
+      </p>
+      <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html">Link to US Census Data for 2010-2019</a>
+      <br>
+      <br>
+      <h3>National Centers for Environmental Information</h3>
+      <p>
+        The NCEI Data Access application offers a wide variety of download and subsetting options for a growing collection of weather data, including precipitation and temperature     information 
+        The Rankings are compiled using county-level measures from a variety of national and state data sources using a code to deploy an API.
+        This data shows the more than 15000 weather data by county for specific months of the year to collect most crititcal values within states.        </p>
+      <a href="https://www.ncei.noaa.gov/access">Link to National Centers for Environmental Information</a>
+      <br>
+      <br>
+      <h3>National County Health Rankings 2010-2019</h3>
+      <p>
+        The County Health Rankings is a program of the University of Wisconsin Population Health Institute that measures the health of nearly all counties 
+        The Rankings are compiled using county-level measures from a variety of national and state data sources.
+        This data shows the more than 144 key health factors by county in US and ranks them within states.  
+      </p>
+      <a href="https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019">Link to National County Health Rankings 2010</a>
+      <br>
+      <br>
+      <h2>What we hope to answer with this study</h2>
+      <p>
+        We want to predict if there is a relationship between the success of a marriage based on its local climate.
+        We hope to create a model that can predict future divorce rates of counties 
+      </p>
+      <br>
+      <br>
+      <h2>Communication Protocols</h2>
+      <p>
+        Throughout this project the group has constantly made contact through the slack app.
+        This includes sharing information that we find online, code & arranging meetings at least once a week.
+        TO_DO List Tracker has been developed to monitor progress of deliverables 
+      </p>
+      <a href="https://docs.google.com/spreadsheets/d/1U_9O-k0YK3AiKl6bOaacjRLvW4Q3csCAwT0udpdqPrk/edit?usp=sharing">TO_DO List Tracker</a>
+      <br>
+      <br>
+      <h2>Tools Utilized</h2>
+      <h3>Postgres SQL Database</h3>
+      <p>
+        We stored data after cleaning it up for use in the machine learning model in a postgres SQL database, a copyof which is on our Heroku server.
+      </p>
+      <h3>Psycopg2 Python Library</h3>
+      <p>
+        This Python library was instrumental in connecting our programs to our PostgreSQL database.
+      </p>
+      <h3>Pandas Python Library</h3>
+      <p>
+        The Pandas library was our goto dataorganization and cleaning tool in Python.
+      </p>
+      <h3>Microsoft Visual Studio</h3>
+      <p>
+        Our Jupyter Notebooks and all of our HMTL/CSS code were developed with the use of MS VS.
+      </p>
+      <h3>Dashboard Tools</h3>
+      <p>
+        We utilized Flask, HTML, and CSS inside a Heroku plug launched via the Heroku CLI to format and display the website you are reading this on.
+      </p>
+      <br>
+      <br>
+      <h2>Data Cleaning Process</h2>
+      <p>
+        Here, our dataset had to be separated, sorted and transformed further before performing any analysis
+        > Import the csv file was into a Pandas DataFrame
+        > Fill zero value into null data from dataset
+        > Manipulate data for Bedford City due to legal status change
+        > Change county names to split out state and create new column with 2-letter code (+3,200)
+        > Join the dataframes on 'Geographic Area' to merge the datasets (Census & Divorce)
+        > Development of API to obtain Weather Data by county  (+16,200)
+      </p>
+      <br>
+      <br>
+      <h2>Database Layout</h2>
+      <h3>Our database contains a 4 main tables (county_prep, county_temp, divorce_200, divorce_2010) which captures the dataset for 2000 and 2010 related with weather precipitacion (days with > 0.1 inch of precipitation, extreme maximum precipitation,  days with snow >0.1 inch of snow) and and temperature (days over 90 and days under 32) by county. USe of a DB allows for the following benefits: </h3>
+      <p>
+        > Quick retrieval of data
+        > Mitigating redundant data in child tables
+        > Preserving data integrity by having the features of each person stored once
+      </p>
+      <br>
+      <br>
+      <h2>Machine Learning Model</h2>
+      <h3>Keras Deep Learning Model</h3>
+      <p>
+        Neural Network Machine Learning Algorithms to predict if there is a relationship between divorce and weather patterns at a county level. 
+        Steps include our Keras model, using the fit method and provide the x training values and y training values, as well as the number of epochs.
+        > Input Values = Weather by Years 
+        > Output = Divorce Rate
+      </p>
+      <h4>The findings from the MLM can be found on the Findings Page.</h4>
+      <br>
+      <br>
+      <h2>Conclusion/Next Steps</h2>
+      <p>
+        > We failed to reject the null hypothesis, there is not enough evidence to support the alternative claim that there is not relation between weather factors (rain and temperature) and divorece rate based on census and divorce data for 3,242 Counties during 2000 and 2010.
+        > Machine Learning → After  trained neural network model and verified its performance using a test dataset, it could be applied novel datasets using health data to predict divorce rates based on additional inputs in the model.
+      </p>
+      <br>
+      <br>
+      <h2>Google Slide Presentation</h2>
+      <a href="https://docs.google.com/presentation/d/1D8cOtKXKZau2pQhyuw1ub7cr5JZfprV3wk8EgnLWJCA/edit?usp=sharing">Divorce, like Weather, can be predictable</a>
+      <br>
+      <img src="{{ url_for('static', filename = 'Images/Final_Project.png') }}" alt="Image resembling a 7 day weather forcast, filled with witty divorce puns." style="width:50%;height:50%;"></img>
+<!-- Links 
+
+- [Census and Divorce Dataset Cleaning here](static/Jupyter_Notebooks/Data_Cleaning_Divorce_Weather.ipynb)
+
+- [Wethaer API Data Code here](static/Jupyter_Notebooks/Get_Weather_Data_2.ipynb)
+
+- [Machine Learning here](static/Jupyter_Notebooks/DivorceNN.ipynb)
+
+- [Correlation_Matrix code here](static/Jupyter_Notebooks/correlation_matrix.ipynb)
+-->
+    </div>
 </body>
 </html>
