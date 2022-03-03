@@ -8,9 +8,9 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/MLModel/')
-def model():
-    return render_template('model.html')
+@app.route('/FIPS/')
+def fips():
+    return render_template('fips.html')
 
 
 @app.route('/Findings/')

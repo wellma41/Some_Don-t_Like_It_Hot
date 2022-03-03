@@ -16,12 +16,23 @@
           </div>
           <ul class="nav navbar-nav">
             <li><a href="{{ url_for('index')}}">Home</a></li>
-            <li class="active"><a href="{{ url_for('model')}}">Machine Learning Model</a></li>
+            <li><a href="{{ url_for('fips')}}">What is FIPS?</a></li>
+            <li class="active"><a href="{{ url_for('model')}}">County Map</a></li>
             <li><a href="{{ url_for('findings')}}">Findings</a></li>
             <li><a href="{{ url_for('contactus')}}">Contact Information</a></li>
           </ul>
         </div>
       </nav>
-<h1>Testing Heroku Website.... Please stand by.</h1>
-</body>
+      <div class="container">
+        <div class="container-bg"></div>
+        <div class="col-lg-4">
+          <p>
+            <h2 style="text-align:center; font-size:1vw;" opacity=1>The correlation matrix associated with our dataset shows that there isn't enough correlation between the weather and the divorce rate to be distinguishable from noise at a statistical level. Ergo, the assumption is that there is no true correlation between these factors.</h2>
+          </p>
+        </div>
+        <div class="col-lg-8">
+          <img src="{{ url_for('static', filename='Images/Corr_Matrix.png') }}" alt="Correlation Matrix for Weather Data and Divorce Rates." style="width:100%;height:100%;" opacity=1></img>
+        </div>
+      </div>
+  </body>
 </html>

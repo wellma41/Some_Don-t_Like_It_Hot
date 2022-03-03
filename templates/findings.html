@@ -16,21 +16,70 @@
           </div>
           <ul class="nav navbar-nav">
             <li><a href="{{ url_for('index')}}">Home</a></li>
-            <li><a href="{{ url_for('model')}}">Machine Learning Model</a></li>
+            <li><a href="{{ url_for('fips')}}">What is FIPS?</a></li>
             <li class="active"><a href = "{{ url_for('findings')}}">Findings</a></li>
             <li><a href="{{ url_for('contactus')}}">Contact Information</a></li>
           </ul>
         </div>
     </nav>
+    <!-- Correlation Matrix -->
     <div class="container">
       <div class="container-bg"></div>
       <div class="col-lg-4">
         <p>
-          <h2 style="text-align:center font-size:1vw" opacity=1>The correlation matrix associated with our dataset shows that there isn't enough correlation between the weather and the divorce rate to be distinguishable from noise at a statistical level. Ergo, the assumption is that there is no true correlation between these factors.</h2>
+          <h2 style="text-align:center; font-size:1vw;" opacity=1>The correlation matrix associated with our dataset shows that there isn't enough correlation between the weather and the divorce rate to be distinguishable from noise at a statistical level. Ergo, the assumption is that there is no true correlation between these factors.</h2>
         </p>
       </div>
       <div class="col-lg-8">
         <img src="{{ url_for('static', filename='Images/Corr_Matrix.png') }}" alt="Correlation Matrix for Weather Data and Divorce Rates." style="width:100%;height:100%;" opacity=1></img>
+      </div>
+    </div>
+    <!-- Average Temperature Vs. Divorce -->
+    <div class="container">
+      <div class="container-bg"></div>
+      <div class="col-lg-4">
+        <p>
+          <h2 style="text-align:center; font-size:1vw;" opacity=1>A scatter plot of average tmeperature data versus divorce rate in divorces per 1000 people.</h2>
+        </p>
+      </div>
+      <div class="col-lg-8">
+        <img src="{{ url_for('static', filename='Images/avgtemp_div.png') }}" alt="A scatter plot of average tmeperature data versus divorce rate in divorces per 1000 people." style="width:100%;height:100%;" opacity=1></img>
+      </div>
+    </div>
+    <!-- High Temperature Vs. Divorce -->
+    <div class="container">
+      <div class="container-bg"></div>
+      <div class="col-lg-4">
+        <p>
+          <h2 style="text-align:center; font-size:1vw;" opacity=1>A scatter plot of annual days over 90 farenheit versus divorce rate in divorces per 1000 people</h2>
+        </p>
+      </div>
+      <div class="col-lg-8">
+        <img src="{{ url_for('static', filename='Images/90temp_div.png') }}" alt="A scatter plot of annual days over 90 farenheit versus divorce rate in divorces per 1000 people." style="width:100%;height:100%;" opacity=1></img>
+      </div>
+    </div>
+    <!-- Rainfall Vs. Divorce -->
+    <div class="container">
+      <div class="container-bg"></div>
+      <div class="col-lg-4">
+        <p>
+          <h2 style="text-align:center; font-size:1vw;" opacity=1>A scatter plot of annual days with rainfall versus divorce rate in divorces per 1000 people.</h2>
+        </p>
+      </div>
+      <div class="col-lg-8">
+        <img src="{{ url_for('static', filename='Images/rain_div.png') }}" alt="A scatter plot of annual days with rainfall versus divorce rate in divorces per 1000 people." style="width:100%;height:100%;" opacity=1></img>
+      </div>
+    </div>
+    <!-- Snowfall Vs. Divorce -->
+    <div class="container">
+      <div class="container-bg"></div>
+      <div class="col-lg-4">
+        <p>
+          <h2 style="text-align:center; font-size:1vw;" opacity=1>A scatter plot of annual days with snowfall versus divorce rate in divorces per 1000 people.</h2>
+        </p>
+      </div>
+      <div class="col-lg-8">
+        <img src="{{ url_for('static', filename='Images/snow_div.png') }}" alt="A scatter plot of annual days with snowfall versus divorce rate in divorces per 1000 people." style="width:100%;height:100%;" opacity=1></img>
       </div>
     </div>
   </body>
